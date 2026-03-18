@@ -1,0 +1,21 @@
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  background: rgba(28, 20, 16, 0.96);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(193,98,63,0.3);
+  padding: 0 2.5rem;
+  display: flex; align-items: center; justify-content: space-between;
+  height: 58px;
+}
+.nav-logo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem; color: var(--white); letter-spacing: 0.05em;
+}
+.nav-logo span { color: var(--terra-lt); }
+.nav-links { display: flex; gap: 2rem; list-style: none; }
+.nav-links a {
+  color: rgba(255,255,255,0.6); text-decoration: none;
+  font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase;
+  font-weight: 500; transition: color 0.2s;
+}
+.nav-links a:hover { color: var(--terra-lt); }

@@ -1,0 +1,23 @@
+:root {
+  --terra:    #C1623F;
+  --terra2:   #A04E2E;
+  --terra-lt: #D4845F;
+  --sand:     #F2E8D9;
+  --sand2:    #E8D9C0;
+  --dark:     #1C1410;
+  --mid:      #5C4A3A;
+  --light:    #9C836E;
+  --white:    #FDFAF6;
+  --border:   #DDD0BC;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--sand);
+  color: var(--dark);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
